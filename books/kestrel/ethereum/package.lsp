@@ -36,6 +36,7 @@
                              defmax-nat
                              defxdoc+
                              lnfix
+                             maybe-stringp
                              nat
                              nat=>bebytes*
                              nibble
