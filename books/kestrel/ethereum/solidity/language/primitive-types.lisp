@@ -42,5 +42,3 @@
   (:int ())
   (:long ())
   :pred primitive-typep)
-
-
