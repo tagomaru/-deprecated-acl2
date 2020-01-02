@@ -36,6 +36,7 @@
                              defmax-nat
                              defxdoc+
                              lnfix
+                             logext
                              maybe-stringp
                              nat
                              nat=>bebytes*
@@ -45,9 +46,17 @@
                              nibble-list-fix
                              nibble-listp
                              nibblep
+                             packn-pos
                              prefixp
+                             sbyte32
+                             sbyte32p
+                             sbyte64
+                             sbyte64p
                              string=>nats
                              trim-bendian*
+                             tuplep
+                             ubyte16
+                             ubyte16p
                              unsigned-byte-fix
                              unsigned-byte-list-fix
                              std::define-sk
