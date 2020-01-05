@@ -112,12 +112,8 @@
   (:long
    :fields ((get :type long-value :acc-body x))
    :ctor-body get)
-  :prepwork ((local (in-theory (enable byte-value-p
-                                       short-value-p
-                                       int-value-p
+  :prepwork ((local (in-theory (enable int-value-p
                                        long-value-p
-                                       byte-value-fix
-                                       short-value-fix
                                        int-value-fix
                                        long-value-fix))))
   ///
